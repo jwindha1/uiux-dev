@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task organizer</title>
+    <link rel="stylesheet" href="dev.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+  <body>
+
+    <!-- <p>This tool will give 12 tasks that need to be done. Each task has an image, name, the number of hours to complete it, and a single label. The displayed tasks can be filtered to be between certain thresholds for number of hours to complete and/or for a specific category. They can be sorted by fastest or slowest tasks. Tasks can be added or removed from a TODO list, which will display the total number of hours of work chosen to complete.</p>
+
+    <p>Components:</p>
+    <ul>
+      <li>"Options" grid of items with their image, name, hours, and label which aren't in the TODO list</li>
+      <li>"Add" button to move an item from "Options" to "TODO"</li>
+      <li>Two filtering options as dropdowns (default "all")</li>
+      <li>Sorting options as a dropdown (default "fastest to slowest")</li>
+      <li>"TODO" grid of chosen items with their image, name, hours, and label</li>
+      <li>Arrows to shift "TODO" items up and down</li>
+      <li>X button to move an item from "TODO" to "Options"</li>
+    </ul> -->
+
+    <div class="hero-image">
+      <h1 id="picture-text">Pick and plan your tasks! :)</h1>
+    </div>
+    <div style="margin-left: 7%; margin-right: 7%;">
+    <!-- We will put our React component inside this div. -->
+    <!-- <div class="options_container" data-imgurl="https://cs.brown.edu/courses/csci1300/images/big-succulent-08.png"></div> -->
+    <div class="options_container"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="component.js"></script>
+
+  </div>
+
+  </body>
+</html>
