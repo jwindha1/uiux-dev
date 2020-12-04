@@ -91,7 +91,7 @@ class Options extends React.Component {
             },
             {
                 id: 9,
-                img: "http://images.clipartpanda.com/test-clip-art-cpa-school-test.png",
+                img: "http://clipart-library.com/newhp/kisspng-binary-code-binary-number-clip-art-binary-cliparts-5a87e3ed8e7668.2637438415188551495835.jpg",
                 name: "Deep learning final",
                 hours: 26,
                 label: "school",
